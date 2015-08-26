@@ -8,12 +8,11 @@ To convert markdown text to HTML this module is using the Parsedown lib by http:
 
 Upload to modules, activate and use like this (example):
 
-    
+    [{* transform oxlongdesc to HTML *}]
     [{ oxeval var=$oLongdesc|md2html }]
     
 in any *.tpl you like.
 
-In this example the articles long description will be transformed to HTML.
 
 ##### License
  The MIT License
